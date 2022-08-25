@@ -39,12 +39,25 @@ class CropPresenter(
 
     fun onViewsReady(paperWidth: Int, paperHeight: Int) {
         iCropView.getPaperRect().onCorners2Crop(corners, picture?.size(), paperWidth, paperHeight)
+        val pictureWidth  = picture?.width() ?: 1080
+        val pictureHeight = picture?.height() ?: 1920
+
+        var pictureWidthScaled : Int = pictureWidth
+        var pictureHeightScaled : Int = pictureHeight
+
+        while(pictureWidthScaled > 4048 || pictureHeightScaled > 4048){
+            pictureWidthScaled = (pictureWidthScaled * 0.98).toInt()
+            pictureHeightScaled = (pictureHeightScaled * 0.98).toInt()
+        }
+
         val bitmap = Bitmap.createBitmap(
-            picture?.width() ?: 1080, picture?.height()
-                ?: 1920, Bitmap.Config.ARGB_8888
+            pictureWidth , pictureHeight, Bitmap.Config.ARGB_8888
         )
         Utils.matToBitmap(picture, bitmap, true)
-        iCropView.getPaper().setImageBitmap(bitmap)
+
+        var scaledBitmap: Bitmap = Bitmap.createScaledBitmap(bitmap, pictureWidthScaled, pictureHeightScaled, false)
+
+        iCropView.getPaper().setImageBitmap(scaledBitmap)
     }
 
     fun crop() {
@@ -150,7 +163,7 @@ class CropPresenter(
     }
 
     fun save() {
-        val file = File(initialBundle.getString(EdgeDetectionHandler.SAVE_TO) as String);
+        val file = File(initialBundle.getString(EdgeDetectionHandler.SAVE_TO) as String)
 
         val rotatePic = rotateBitmap
         if (null != rotatePic) {
