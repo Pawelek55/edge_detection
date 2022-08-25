@@ -4,8 +4,6 @@ import 'dart:io';
 import 'package:edge_detection/edge_detection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:path/path.dart';
-import 'package:path_provider/path_provider.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,15 +23,12 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> getImage() async {
-    String imagePath = join((await getApplicationSupportDirectory()).path,
-        "${(DateTime.now().millisecondsSinceEpoch / 1000).round()}.jpeg");
+    String? imagePath;
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      bool success = await EdgeDetection.detectEdge(imagePath);
-      if (!success) {
-        imagePath = "Canceled by user";
-      }
+      imagePath = (await EdgeDetection.detectEdge);
+      print("$imagePath");
     } on PlatformException catch (e) {
       imagePath = e.toString();
     }
