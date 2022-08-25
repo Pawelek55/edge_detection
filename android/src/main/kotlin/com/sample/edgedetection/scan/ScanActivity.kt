@@ -162,11 +162,18 @@ class ScanActivity : BaseActivity(), IScanView.Proxy {
         val iStream: InputStream = contentResolver.openInputStream(imageUri)!!
 
         val exif = ExifInterface(iStream);
+
+        var imageWidth = exif.getAttributeInt(ExifInterface.TAG_IMAGE_WIDTH, 0).toDouble()
+        var imageHeight = exif.getAttributeInt(ExifInterface.TAG_IMAGE_LENGTH, 0).toDouble()
+
+        val orientation: Int
         var rotation = -1
-        val orientation: Int = exif.getAttributeInt(
-            ExifInterface.TAG_ORIENTATION,
-            ExifInterface.ORIENTATION_UNDEFINED
-        )
+        if (imageWidth > imageHeight) {
+            orientation = 6
+        } else {
+            orientation = 0
+        }
+
         when (orientation) {
             ExifInterface.ORIENTATION_ROTATE_90 -> rotation = Core.ROTATE_90_CLOCKWISE
             ExifInterface.ORIENTATION_ROTATE_180 -> rotation = Core.ROTATE_180
@@ -174,8 +181,6 @@ class ScanActivity : BaseActivity(), IScanView.Proxy {
         }
         Log.i(TAG, "rotation:" + rotation)
 
-        var imageWidth = exif.getAttributeInt(ExifInterface.TAG_IMAGE_WIDTH, 0).toDouble()
-        var imageHeight = exif.getAttributeInt(ExifInterface.TAG_IMAGE_LENGTH, 0).toDouble()
         if (rotation == Core.ROTATE_90_CLOCKWISE || rotation == Core.ROTATE_90_COUNTERCLOCKWISE) {
             imageWidth = exif.getAttributeInt(ExifInterface.TAG_IMAGE_LENGTH, 0).toDouble()
             imageHeight = exif.getAttributeInt(ExifInterface.TAG_IMAGE_WIDTH, 0).toDouble()
