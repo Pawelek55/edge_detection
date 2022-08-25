@@ -5,143 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08b3923-f33b-4d39-b5f6-cea7d389432e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/arm64-v8a/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi-v7a/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/armeabi/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/mips64/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_calib3d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_core.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_dnn.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_features2d.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_flann.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_highgui.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_imgcodecs.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_imgproc.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_java3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_ml.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_objdetect.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_photo.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_shape.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_stitching.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_superres.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_video.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_videoio.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/jniLibs/x86_64/libopencv_videostab.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/crop/CropActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/crop/CropActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/scan/ScanActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/scan/ScanActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/scan/ScanPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/scan/ScanPresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/res/layout/activity_crop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/layout/activity_crop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/res/layout/activity_scan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/layout/activity_scan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/edge_detection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/edge_detection.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +35,11 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
